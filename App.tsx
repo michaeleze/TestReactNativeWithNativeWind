@@ -1,22 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { Text, View } from 'react-native';
-import "./styles.css";
-
-// const styles = {
-//   container: {
-//     flex: 1,
-//     backgroundColor: '#fff',
-//     alignItems: 'center',
-//     justifyContent: 'center',
-//   },
-// }
-
-// const Styles = StyleSheet.create(styles);
+import SplashScreen from './src/screens/Splash';
 
 export default function App() {
   return (
     <View className="flex-1 items-center justify-center bg-white" >
-      <Text>Open up App.js to start working on your app!</Text>
+      <SplashScreen />
+      <Text>WELCOME</Text>
       <StatusBar style="auto" />
     </View >
   );
